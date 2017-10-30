@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092C6BFC1FA6CBE200855D87 /* FLTabAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6BFB1FA6CBE200855D87 /* FLTabAnimatedTransitioning.m */; };
+		092C6BFF1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6BFE1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.m */; };
+		092C6C021FA6CCD500855D87 /* FLModalAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C011FA6CCD500855D87 /* FLModalAnimatedTransitioning.m */; };
+		092C6C051FA6D63600855D87 /* FLPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C041FA6D63600855D87 /* FLPushViewController.m */; };
+		092C6C081FA6D7A800855D87 /* FLPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C071FA6D7A800855D87 /* FLPopViewController.m */; };
+		092C6C0B1FA6F12B00855D87 /* UIView+FL.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C0A1FA6F12B00855D87 /* UIView+FL.m */; };
+		092C6C0E1FA6F2B000855D87 /* FLPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C0D1FA6F2B000855D87 /* FLPresentViewController.m */; };
+		092C6C111FA6F41500855D87 /* FLDismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C6C101FA6F41500855D87 /* FLDismissViewController.m */; };
+		09FADD211FA6C0210054091C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FADD201FA6C0210054091C /* AppDelegate.m */; };
+		09FADD271FA6C0210054091C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FADD251FA6C0210054091C /* Main.storyboard */; };
+		09FADD291FA6C0210054091C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FADD281FA6C0210054091C /* Assets.xcassets */; };
+		09FADD2C1FA6C0210054091C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FADD2A1FA6C0210054091C /* LaunchScreen.storyboard */; };
+		09FADD2F1FA6C0210054091C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FADD2E1FA6C0210054091C /* main.m */; };
+		09FADD3A1FA6C69F0054091C /* FLTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FADD391FA6C69F0054091C /* FLTransitioning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092C6BFA1FA6CBE200855D87 /* FLTabAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLTabAnimatedTransitioning.h; sourceTree = "<group>"; };
+		092C6BFB1FA6CBE200855D87 /* FLTabAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTabAnimatedTransitioning.m; sourceTree = "<group>"; };
+		092C6BFD1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLNavigationAnimatedTransitioning.h; sourceTree = "<group>"; };
+		092C6BFE1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLNavigationAnimatedTransitioning.m; sourceTree = "<group>"; };
+		092C6C001FA6CCD500855D87 /* FLModalAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLModalAnimatedTransitioning.h; sourceTree = "<group>"; };
+		092C6C011FA6CCD500855D87 /* FLModalAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLModalAnimatedTransitioning.m; sourceTree = "<group>"; };
+		092C6C031FA6D63600855D87 /* FLPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPushViewController.h; sourceTree = "<group>"; };
+		092C6C041FA6D63600855D87 /* FLPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPushViewController.m; sourceTree = "<group>"; };
+		092C6C061FA6D7A800855D87 /* FLPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPopViewController.h; sourceTree = "<group>"; };
+		092C6C071FA6D7A800855D87 /* FLPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPopViewController.m; sourceTree = "<group>"; };
+		092C6C091FA6F12B00855D87 /* UIView+FL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FL.h"; sourceTree = "<group>"; };
+		092C6C0A1FA6F12B00855D87 /* UIView+FL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FL.m"; sourceTree = "<group>"; };
+		092C6C0C1FA6F2B000855D87 /* FLPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPresentViewController.h; sourceTree = "<group>"; };
+		092C6C0D1FA6F2B000855D87 /* FLPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPresentViewController.m; sourceTree = "<group>"; };
+		092C6C0F1FA6F41500855D87 /* FLDismissViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDismissViewController.h; sourceTree = "<group>"; };
+		092C6C101FA6F41500855D87 /* FLDismissViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDismissViewController.m; sourceTree = "<group>"; };
+		09FADD1C1FA6C0210054091C /* FLAnimatedTransitioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAnimatedTransitioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FADD1F1FA6C0210054091C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09FADD201FA6C0210054091C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09FADD261FA6C0210054091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FADD281FA6C0210054091C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FADD2B1FA6C0210054091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FADD2D1FA6C0210054091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FADD2E1FA6C0210054091C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FADD381FA6C69F0054091C /* FLTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLTransitioning.h; sourceTree = "<group>"; };
+		09FADD391FA6C69F0054091C /* FLTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTransitioning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FADD191FA6C0210054091C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092C6C121FA6F41D00855D87 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				092C6C0C1FA6F2B000855D87 /* FLPresentViewController.h */,
+				092C6C0D1FA6F2B000855D87 /* FLPresentViewController.m */,
+				092C6C0F1FA6F41500855D87 /* FLDismissViewController.h */,
+				092C6C101FA6F41500855D87 /* FLDismissViewController.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		092C6C131FA6F43F00855D87 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				092C6C031FA6D63600855D87 /* FLPushViewController.h */,
+				092C6C041FA6D63600855D87 /* FLPushViewController.m */,
+				092C6C061FA6D7A800855D87 /* FLPopViewController.h */,
+				092C6C071FA6D7A800855D87 /* FLPopViewController.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		092C6C141FA6F74900855D87 /* FLTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				09FADD381FA6C69F0054091C /* FLTransitioning.h */,
+				09FADD391FA6C69F0054091C /* FLTransitioning.m */,
+				092C6BFA1FA6CBE200855D87 /* FLTabAnimatedTransitioning.h */,
+				092C6BFB1FA6CBE200855D87 /* FLTabAnimatedTransitioning.m */,
+				092C6BFD1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.h */,
+				092C6BFE1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.m */,
+				092C6C001FA6CCD500855D87 /* FLModalAnimatedTransitioning.h */,
+				092C6C011FA6CCD500855D87 /* FLModalAnimatedTransitioning.m */,
+			);
+			path = FLTransitioning;
+			sourceTree = "<group>";
+		};
+		092C6C151FA6F75800855D87 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				092C6C091FA6F12B00855D87 /* UIView+FL.h */,
+				092C6C0A1FA6F12B00855D87 /* UIView+FL.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		09FADD131FA6C0210054091C = {
+			isa = PBXGroup;
+			children = (
+				09FADD1E1FA6C0210054091C /* FLAnimatedTransitioning */,
+				09FADD1D1FA6C0210054091C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09FADD1D1FA6C0210054091C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FADD1C1FA6C0210054091C /* FLAnimatedTransitioning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FADD1E1FA6C0210054091C /* FLAnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				09FADD1F1FA6C0210054091C /* AppDelegate.h */,
+				09FADD201FA6C0210054091C /* AppDelegate.m */,
+				09FADD251FA6C0210054091C /* Main.storyboard */,
+				092C6C131FA6F43F00855D87 /* Push */,
+				092C6C121FA6F41D00855D87 /* Modal */,
+				09FADD281FA6C0210054091C /* Assets.xcassets */,
+				09FADD2A1FA6C0210054091C /* LaunchScreen.storyboard */,
+				09FADD2D1FA6C0210054091C /* Info.plist */,
+				09FADD2E1FA6C0210054091C /* main.m */,
+				092C6C141FA6F74900855D87 /* FLTransitioning */,
+				092C6C151FA6F75800855D87 /* Tools */,
+			);
+			path = FLAnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FADD1B1FA6C0210054091C /* FLAnimatedTransitioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FADD321FA6C0210054091C /* Build configuration list for PBXNativeTarget "FLAnimatedTransitioning" */;
+			buildPhases = (
+				09FADD181FA6C0210054091C /* Sources */,
+				09FADD191FA6C0210054091C /* Frameworks */,
+				09FADD1A1FA6C0210054091C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedTransitioning;
+			productName = FLAnimatedTransitioning;
+			productReference = 09FADD1C1FA6C0210054091C /* FLAnimatedTransitioning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FADD141FA6C0210054091C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = leaf;
+				TargetAttributes = {
+					09FADD1B1FA6C0210054091C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09FADD171FA6C0210054091C /* Build configuration list for PBXProject "FLAnimatedTransitioning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FADD131FA6C0210054091C;
+			productRefGroup = 09FADD1D1FA6C0210054091C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FADD1B1FA6C0210054091C /* FLAnimatedTransitioning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FADD1A1FA6C0210054091C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FADD2C1FA6C0210054091C /* LaunchScreen.storyboard in Resources */,
+				09FADD291FA6C0210054091C /* Assets.xcassets in Resources */,
+				09FADD271FA6C0210054091C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FADD181FA6C0210054091C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092C6BFF1FA6CC8100855D87 /* FLNavigationAnimatedTransitioning.m in Sources */,
+				092C6C111FA6F41500855D87 /* FLDismissViewController.m in Sources */,
+				092C6C051FA6D63600855D87 /* FLPushViewController.m in Sources */,
+				09FADD2F1FA6C0210054091C /* main.m in Sources */,
+				092C6C0E1FA6F2B000855D87 /* FLPresentViewController.m in Sources */,
+				092C6BFC1FA6CBE200855D87 /* FLTabAnimatedTransitioning.m in Sources */,
+				09FADD211FA6C0210054091C /* AppDelegate.m in Sources */,
+				09FADD3A1FA6C69F0054091C /* FLTransitioning.m in Sources */,
+				092C6C021FA6CCD500855D87 /* FLModalAnimatedTransitioning.m in Sources */,
+				092C6C0B1FA6F12B00855D87 /* UIView+FL.m in Sources */,
+				092C6C081FA6D7A800855D87 /* FLPopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FADD251FA6C0210054091C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FADD261FA6C0210054091C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FADD2A1FA6C0210054091C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FADD2B1FA6C0210054091C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FADD301FA6C0210054091C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09FADD311FA6C0210054091C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FADD331FA6C0210054091C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAnimatedTransitioning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaf.FLAnimatedTransitioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FADD341FA6C0210054091C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FLAnimatedTransitioning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leaf.FLAnimatedTransitioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FADD171FA6C0210054091C /* Build configuration list for PBXProject "FLAnimatedTransitioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FADD301FA6C0210054091C /* Debug */,
+				09FADD311FA6C0210054091C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FADD321FA6C0210054091C /* Build configuration list for PBXNativeTarget "FLAnimatedTransitioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FADD331FA6C0210054091C /* Debug */,
+				09FADD341FA6C0210054091C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FADD141FA6C0210054091C /* Project object */;
+}

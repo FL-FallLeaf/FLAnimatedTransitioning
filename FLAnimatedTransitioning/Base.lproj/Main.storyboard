@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aOo-zM-QIJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Push View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FLPushViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5R-X7-ZZd">
+                                <rect key="frame" x="137.5" y="309.5" width="100" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C5R-X7-ZZd" secondAttribute="height" multiplier="90:43" id="ZTE-0f-0jQ"/>
+                                    <constraint firstAttribute="width" constant="100" id="fNB-3Y-Uqq"/>
+                                </constraints>
+                                <state key="normal" image="七夕"/>
+                                <connections>
+                                    <segue destination="nwM-bu-YZs" kind="show" id="g9n-KW-0mK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.75322428910000006" blue="0.33443266789999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C5R-X7-ZZd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8ol-sD-ojh"/>
+                            <constraint firstItem="C5R-X7-ZZd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hKu-As-T0R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W7I-ws-csF"/>
+                    <connections>
+                        <outlet property="image" destination="C5R-X7-ZZd" id="mFf-3I-Eue"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1625" y="-313"/>
+        </scene>
+        <!--Pop View Controller-->
+        <scene sceneID="SCa-za-F8S">
+            <objects>
+                <viewController id="nwM-bu-YZs" customClass="FLPopViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z5V-0w-Bn8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="七夕" translatesAutoresizingMaskIntoConstraints="NO" id="EPj-nh-zOa">
+                                <rect key="frame" x="52" y="74" width="270" height="129"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自定义导航控制器转场动画" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaP-L0-j01">
+                                <rect key="frame" x="83.5" y="223" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21176470589999999" green="0.76862745099999996" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FaP-L0-j01" firstAttribute="centerX" secondItem="Z5V-0w-Bn8" secondAttribute="centerX" id="9vj-Ix-ZGm"/>
+                            <constraint firstItem="FaP-L0-j01" firstAttribute="top" secondItem="EPj-nh-zOa" secondAttribute="bottom" constant="20" id="Prk-HV-VmT"/>
+                            <constraint firstItem="EPj-nh-zOa" firstAttribute="top" secondItem="ifA-NB-CIF" secondAttribute="top" constant="10" id="WCS-Og-vFc"/>
+                            <constraint firstItem="EPj-nh-zOa" firstAttribute="centerX" secondItem="Z5V-0w-Bn8" secondAttribute="centerX" id="kOL-Jb-E3s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ifA-NB-CIF"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="EPj-nh-zOa" id="VlP-aY-JaF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caQ-jB-sIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2364" y="-313.49325337331339"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="yEl-5e-0Qi">
+            <objects>
+                <navigationController id="WeE-ju-G7L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MRE-Bx-bn4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GJF-aL-F7R">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <outlet property="delegate" destination="Tsc-6R-3NQ" id="4J5-mL-JUG"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hGP-sp-Nj9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9T-FU-cVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Tsc-6R-3NQ" customClass="FLTransitioning"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-313"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="3xw-rD-24a">
+            <objects>
+                <viewController id="CVt-yu-8qa" customClass="FLPresentViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x1a-dF-EJu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfG-se-LjM">
+                                <rect key="frame" x="161" y="318" width="53" height="30"/>
+                                <state key="normal" title="Present"/>
+                                <connections>
+                                    <segue destination="yzP-jx-ZxX" kind="show" id="il2-Yz-zfL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.33026409150000002" blue="0.330499351" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="XfG-se-LjM" firstAttribute="centerX" secondItem="x1a-dF-EJu" secondAttribute="centerX" id="nqa-CQ-qrP"/>
+                            <constraint firstItem="XfG-se-LjM" firstAttribute="centerY" secondItem="x1a-dF-EJu" secondAttribute="centerY" id="xky-1V-Fyy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2TD-lY-eLc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ug4-p0-8Zg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dhR-A7-5Hr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="tG6-19-VR3" customClass="FLTransitioning"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="378"/>
+        </scene>
+        <!--Dismiss View Controller-->
+        <scene sceneID="F9G-v0-WBJ">
+            <objects>
+                <viewController id="yzP-jx-ZxX" customClass="FLDismissViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JdC-ou-qGV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2q-6e-VvX">
+                                <rect key="frame" x="160" y="318" width="54" height="30"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <segue destination="ibI-HP-Em4" kind="unwind" unwindAction="dismiss:" id="ydJ-0f-hjc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="N2q-6e-VvX" firstAttribute="centerY" secondItem="JdC-ou-qGV" secondAttribute="centerY" id="doj-lN-MVT"/>
+                            <constraint firstItem="N2q-6e-VvX" firstAttribute="centerX" secondItem="JdC-ou-qGV" secondAttribute="centerX" id="vwY-vu-eRj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3RJ-6N-OWE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUz-Ie-zte" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ibI-HP-Em4" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1625" y="377"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6Nh-d1-xV9">
+            <objects>
+                <tabBarController id="aOo-zM-QIJ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uHp-Tl-pfK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="delegate" destination="cdy-y1-zpV" id="8e4-tk-SRs"/>
+                        <segue destination="CVt-yu-8qa" kind="relationship" relationship="viewControllers" id="dzd-w7-WeC"/>
+                        <segue destination="WeE-ju-G7L" kind="relationship" relationship="viewControllers" id="FD6-bF-S62"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4pT-P8-s7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="cdy-y1-zpV" customClass="FLTransitioning"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="七夕" width="270" height="129"/>
+    </resources>
+</document>
